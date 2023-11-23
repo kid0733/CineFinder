@@ -15,20 +15,22 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/spinner.css" />
     <script src="lib/swiper.js"></script>
-    <script src="js/script.js" defer></script>
+    
     <title>Flixx</title>
   </head>
   <body>
+
+
     <header class="main-header">
       <div class="container">
-        <div class="logo"><a href="/">FLIXX</a></div>
+        <div class="logo"><a href="./index.html">FLIXX</a></div>
         <nav>
           <ul>
-            <li>
-              <a class="nav-link" href="/">Movies</a>
+            <li >
+              <a class="nav-link" href="index.html" >Movies</a>
             </li>
             <li>
-              <a class="nav-link" href="/shows.html">TV Shows</a>
+              <a class="nav-link" href="shows.html" >TV Shows</a>
             </li>
           </ul>
         </nav>
@@ -56,13 +58,13 @@
     <section class="search">
       <div class="container">
         <div id="alert"></div>
-        <form action="/search.html" class="search-form">
+        <form action="search.html" class="search-form">
           <!-- movies and shows radio box -->
           <div class="search-radio">
             <input type="radio" id="movie" name="type" value="movie" checked />
-            <label for="movies">Movies</label>
+            <label for="movie">Movies</label>
             <input type="radio" id="tv" name="type" value="tv" />
-            <label for="shows">TV Shows</label>
+            <label for="tv">TV Shows</label>
           </div>
           <div class="search-flex">
             <input
@@ -83,126 +85,7 @@
     <section class="container">
       <h2>Popular Movies</h2>
       <div id="popular-movies" class="grid">
-        <div class="card">
-          <a href="movie-details.html?id=1">
-            <img
-              src="../images/no-image.jpg"
-              class="card-img-top"
-              alt="Movie Title"
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Movie Title</h5>
-            <p class="card-text">
-              <small class="text-muted">Release: XX/XX/XXXX</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="movie-details.html?id=1">
-            <img
-              src="../images/no-image.jpg"
-              class="card-img-top"
-              alt="Movie Title"
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Movie Title</h5>
-            <p class="card-text">
-              <small class="text-muted">Release: XX/XX/XXXX</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="movie-details.html?id=1">
-            <img
-              src="../images/no-image.jpg"
-              class="card-img-top"
-              alt="Movie Title"
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Movie Title</h5>
-            <p class="card-text">
-              <small class="text-muted">Release: XX/XX/XXXX</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="movie-details.html?id=1">
-            <img
-              src="../images/no-image.jpg"
-              class="card-img-top"
-              alt="Movie Title"
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Movie Title</h5>
-            <p class="card-text">
-              <small class="text-muted">Release: XX/XX/XXXX</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="movie-details.html?id=1">
-            <img
-              src="../images/no-image.jpg"
-              class="card-img-top"
-              alt="Movie Title"
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Movie Title</h5>
-            <p class="card-text">
-              <small class="text-muted">Release: XX/XX/XXXX</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="movie-details.html?id=1">
-            <img
-              src="../images/no-image.jpg"
-              class="card-img-top"
-              alt="Movie Title"
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Movie Title</h5>
-            <p class="card-text">
-              <small class="text-muted">Release: XX/XX/XXXX</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="movie-details.html?id=1">
-            <img
-              src="../images/no-image.jpg"
-              class="card-img-top"
-              alt="Movie Title"
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Movie Title</h5>
-            <p class="card-text">
-              <small class="text-muted">Release: XX/XX/XXXX</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="movie-details.html?id=1">
-            <img
-              src="../images/no-image.jpg"
-              class="card-img-top"
-              alt="Movie Title"
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Movie Title</h5>
-            <p class="card-text">
-              <small class="text-muted">Release: XX/XX/XXXX</small>
-            </p>
-          </div>
-        </div>
+        
       </div>
     </section>
 
@@ -225,5 +108,6 @@
     </footer>
 
     <div class="spinner"></div>
+    <script src="script.js" ></script>
   </body>
 </html>
