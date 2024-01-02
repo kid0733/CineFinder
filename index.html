@@ -15,22 +15,20 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/spinner.css" />
     <script src="lib/swiper.js"></script>
-    
+    <script src="js/script.js" defer></script>
     <title>Flixx</title>
   </head>
   <body>
-
-
     <header class="main-header">
       <div class="container">
-        <div class="logo"><a href="./index.html">FLIXX</a></div>
+        <div class="logo"><a href="/">FLIXX</a></div>
         <nav>
           <ul>
-            <li >
-              <a class="nav-link" href="index.html" >Movies</a>
+            <li>
+              <a class="nav-link" href="/">Movies</a>
             </li>
             <li>
-              <a class="nav-link" href="shows.html" >TV Shows</a>
+              <a class="nav-link" href="/shows.html">TV Shows</a>
             </li>
           </ul>
         </nav>
@@ -41,16 +39,7 @@
     <section class="now-playing">
       <h2>Now Playing</h2>
       <div class="swiper">
-        <div class="swiper-wrapper">
-          <!-- <div class="swiper-slide">
-            <a href="movie-details.html?id=1">
-              <img src="./images/no-image.jpg" alt="Movie Title" />
-            </a>
-            <h4 class="swiper-rating">
-              <i class="fas fa-star text-secondary"></i> 8 / 10
-            </h4>
-          </div> -->
-        </div>
+        <div class="swiper-wrapper"></div>
       </div>
     </section>
 
@@ -58,13 +47,13 @@
     <section class="search">
       <div class="container">
         <div id="alert"></div>
-        <form action="search.html" class="search-form">
+        <form action="/search.html" class="search-form">
           <!-- movies and shows radio box -->
           <div class="search-radio">
             <input type="radio" id="movie" name="type" value="movie" checked />
-            <label for="movie">Movies</label>
+            <label for="movies">Movies</label>
             <input type="radio" id="tv" name="type" value="tv" />
-            <label for="tv">TV Shows</label>
+            <label for="shows">TV Shows</label>
           </div>
           <div class="search-flex">
             <input
@@ -84,9 +73,7 @@
     <!-- Popular Movies -->
     <section class="container">
       <h2>Popular Movies</h2>
-      <div id="popular-movies" class="grid">
-        
-      </div>
+      <div id="popular-movies" class="grid"></div>
     </section>
 
     <!-- Footer -->
@@ -108,6 +95,5 @@
     </footer>
 
     <div class="spinner"></div>
-    <script src="script.js" ></script>
   </body>
 </html>
