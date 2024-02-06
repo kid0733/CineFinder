@@ -52,7 +52,7 @@ const global = {
   
   // Display 20 most popular tv shows
   async function displayPopularShows() {
-    const { results } = await fetchAPIData('tv/popular');
+    const { results } = await fetchAPIData('tv/list?language=en');
   
     results.forEach((show) => {
       const div = document.createElement('div');
